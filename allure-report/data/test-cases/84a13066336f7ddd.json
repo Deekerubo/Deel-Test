@@ -1,0 +1,56 @@
+{
+  "uid" : "84a13066336f7ddd",
+  "name" : "should logout ",
+  "fullName" : "Application Logout.should logout ",
+  "historyId" : "cca4f2f08d520b9210b5a06f7b3379fd",
+  "time" : {
+    "start" : 1622645641720,
+    "stop" : 1622645641728,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Application Logout"
+  }, {
+    "name" : "testClass",
+    "value" : "Application Logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout "
+  }, {
+    "name" : "package",
+    "value" : "Application Logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "84a13066336f7ddd.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

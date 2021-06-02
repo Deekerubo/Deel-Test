@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Application Login",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "7d08a12befc2b679",
+      "parentUid" : "d2d2043afa7862d53b131122a77d5e7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622645718783,
+        "stop" : 1622645719019,
+        "duration" : 236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "d2d2043afa7862d53b131122a77d5e7d"
+  }, {
+    "name" : "Create a new Fixed contract ",
+    "children" : [ {
+      "name" : "should successfully create a contract",
+      "uid" : "e52504c6d197754e",
+      "parentUid" : "e1de0a9f4e6410c952932237cf7e5553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622645719129,
+        "stop" : 1622645719352,
+        "duration" : 223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "e1de0a9f4e6410c952932237cf7e5553"
+  }, {
+    "name" : "Application Logout",
+    "children" : [ {
+      "name" : "should logout ",
+      "uid" : "4bb2f8e41201dc75",
+      "parentUid" : "acde38a9f18eea39c23efb8f8b3f0fa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622645719383,
+        "stop" : 1622645719430,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-91.0.4472.77" ]
+    } ],
+    "uid" : "acde38a9f18eea39c23efb8f8b3f0fa7"
+  } ]
+}

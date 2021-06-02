@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 02 17:55:18 EAT 2021","Wed Jun 02 17:55:19 EAT 2021","236","","Application Login","","Application Login","should login with valid credentials","should login with valid credentials",""
+"passed","Wed Jun 02 17:55:19 EAT 2021","Wed Jun 02 17:55:19 EAT 2021","47","","Application Logout","","Application Logout","should logout ","should logout ",""
+"passed","Wed Jun 02 17:55:19 EAT 2021","Wed Jun 02 17:55:19 EAT 2021","223","","Create a new Fixed contract ","","Create a new Fixed contract ","should successfully create a contract","should successfully create a contract",""
