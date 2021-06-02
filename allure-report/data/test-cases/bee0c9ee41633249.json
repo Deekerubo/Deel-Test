@@ -1,0 +1,56 @@
+{
+  "uid" : "bee0c9ee41633249",
+  "name" : "should successfully create a contract",
+  "fullName" : "Create a new Fixed contract .should successfully create a contract",
+  "historyId" : "fcb566a6cdea5fc739a452b39a63b3b2",
+  "time" : {
+    "start" : 1622645641037,
+    "stop" : 1622645641486,
+    "duration" : 449
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Create a new Fixed contract "
+  }, {
+    "name" : "testClass",
+    "value" : "Create a new Fixed contract "
+  }, {
+    "name" : "testMethod",
+    "value" : "should successfully create a contract"
+  }, {
+    "name" : "package",
+    "value" : "Create a new Fixed contract "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bee0c9ee41633249.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

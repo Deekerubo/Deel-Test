@@ -1,0 +1,31 @@
+[ {
+  "uid" : "4bb2f8e41201dc75",
+  "name" : "should logout ",
+  "time" : {
+    "start" : 1622645719383,
+    "stop" : 1622645719430,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d08a12befc2b679",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1622645718783,
+    "stop" : 1622645719019,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e52504c6d197754e",
+  "name" : "should successfully create a contract",
+  "time" : {
+    "start" : 1622645719129,
+    "stop" : 1622645719352,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

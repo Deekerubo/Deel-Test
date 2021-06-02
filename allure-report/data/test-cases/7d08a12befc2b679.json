@@ -1,0 +1,74 @@
+{
+  "uid" : "7d08a12befc2b679",
+  "name" : "should login with valid credentials",
+  "fullName" : "Application Login.should login with valid credentials",
+  "historyId" : "6d765cc28a47e5d34cbf2ec3ce6388c",
+  "time" : {
+    "start" : 1622645718783,
+    "stop" : 1622645719019,
+    "duration" : 236
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Application Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Application Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Application Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-91.0.4472.77"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "223564ea4b3d69b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622645641005,
+        "stop" : 1622645641025,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "f814288f66c18740",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622643122577,
+        "stop" : 1622643131260,
+        "duration" : 8683
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d08a12befc2b679.json",
+  "parameterValues" : [ "chrome-91.0.4472.77" ]
+}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/.bin/wdio ./wdio.conf.js",
-    "report": "node ./node_modules/.bin/allure allure generate allure-results/ --clean && allure open"
+    "report": "allure generate && allure open"
   },
   "repository": {
     "type": "git",
