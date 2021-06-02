@@ -9,11 +9,11 @@ dotenv.config()
 
 
 describe('Application Login', () => {
-    it('should login with valid credentials', () => {
-        LoginPage.open()
-        LoginPage.login(process.env.EMAIL, process.env.PASSWORD)
+    it('should login with valid credentials', async() => {
+        await LoginPage.open()
+        await LoginPage.login(process.env.EMAIL, process.env.PASSWORD)
         const welcomeMessage = $('p[class="sidebar-option-p"]');
-        expect(welcomeMessage).toHaveText('Home');
+        await expect(welcomeMessage).toHaveText('Home');
         
     });
 
@@ -21,15 +21,15 @@ describe('Application Login', () => {
 });
 
 describe('Create a new Fixed contract ', () => {
-    it('should successfully create a contract', () => {
-        HomePage.open();
-        HomePage.clickCreateAContract();
-        FixedContractPage.selectFixedRate();
-        FixedContractPage.generalInfo();
-        FixedContractPage.paymentDetails();
-        FixedContractPage.defineDates();
-        FixedContractPage.extras();
-        FixedContractPage.compliance();
+    it('should successfully create a contract', async() => {
+        await HomePage.open();
+        await HomePage.clickCreateAContract();
+        await FixedContractPage.selectFixedRate();
+        await FixedContractPage.generalInfo();
+        await FixedContractPage.paymentDetails();
+        await FixedContractPage.defineDates();
+        await FixedContractPage.extras();
+        await FixedContractPage.compliance();
         
         const contractName = $('.editable-text > h1');
         expect(contractName).toHaveTextContaining(data.contractName);
@@ -52,9 +52,9 @@ describe('Create a new Fixed contract ', () => {
 });
 
 describe('Application Logout', () => {
-    it('should logout ', () => {
-    Logout.open()
-    Logout.logout()
-    expect(browser).toHaveUrl('https://dev.deel.wtf/login');
+    it('should logout ', async () => {
+        await Logout.open()
+        await Logout.logout()
+        expect(browser).toHaveUrl('https://dev.deel.wtf/login');
     });
 });
